@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+# Leonids Jekyll Themes
 
-You can use the [editor on GitHub](https://github.com/aprilofthisworld/aprilofthisworld.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+**[Leonids](http://renyuanz.github.io/leonids)** is a clean, fixed sidebar Jekyll theme which is perfect for powering your GitHub hosted blog.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## What is Leonids?
 
-### Markdown
+* Responsive templates. Looking good on mobile, tablet, and desktop.
+* Simple and clear permalink structure.
+* Fixed sidebar to provide a good navigation experience while reading.
+* Support for Disqus Comments.
+* Support for multi-authors.
+* **And** the Leonids (/ˈliːənɪdz/ lee-ə-nidz) are a prolific meteor shower associated with the comet [Tempel-Tuttle](https://en.wikipedia.org/wiki/55P/Tempel%E2%80%93Tuttle).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+See a [demo](http://renyuanz.github.io/leonids/) hosted on GitHub.
 
-```markdown
-Syntax highlighted code block
+## Quick setup
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+git clone https://github.com/renyuanz/leonids
+cd leonids
+jekyll server
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Check out your awesome blog at `http://localhost:4000` and Cheers!
 
-### Jekyll Themes
+## Running with Docker
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aprilofthisworld/aprilofthisworld.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```
+docker run --rm -it --volume=$PWD:/srv/jekyll -p 4000:4000 jekyll/jekyll:pages jekyll serve --watch --force_polling
+```
 
-### Support or Contact
+## Resume Page by [@Skn0tt](https://github.com/Skn0tt)
+Leonids features a simple resume page. It is divided up into five sections:
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* Bio (Edit \_data/index/careers.yml)
+* Education (Edit \_data/index/education.yml)
+* Skills (Edit \_data/index/skills.yml)
+* Projects (Edit \_data/index/projects.yml)
+* About (Edit \_includes/sections/about.html)
+
+You can put all your info into these files, and they will be featured on the resume page.
+
+## TODO
+
+- [ ] Redesign categories page. Ref: [dribbble: blog category section By Ilja Miskov](https://dribbble.com/shots/2274792-Blog-Category-Selection)
+- [ ] Multi languages support.
