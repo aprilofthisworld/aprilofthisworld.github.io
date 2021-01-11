@@ -37,7 +37,7 @@ kramdown:
 gittalk:
   client_id: '6e18630438831e5b3721'
   client_secret: '50ce8fe736e35eaecb6c9ba8d6d86edc0103597b'
-  repo: 'https://github.com/aprilofthisworld/aprilofthisworld.github.io'
+  repo: 'aprilofthisworld.github.io'
   owner: 'aprilofthisworld'
   admin: 'aprilofthisworld'
 #
