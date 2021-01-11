@@ -9,6 +9,7 @@ description: A simple and awesome blog theme powered by jekyll.
 url: # the base hostname & protocol for your site
 keywords: ["blog", "jekyll"]
 
+
 #
 ###################################
 # Jekyll configuration
@@ -27,6 +28,18 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
+#
+###################################
+# git talk configuration
+####################################
+#
+
+gittalk:
+  client_id: '6e18630438831e5b3721'
+  client_secret: '50ce8fe736e35eaecb6c9ba8d6d86edc0103597b'
+  repo: 'https://github.com/aprilofthisworld/aprilofthisworld.github.io'
+  owner: 'aprilofthisworld'
+  admin: 'aprilofthisworld'
 #
 ###################################
 # Site Owner configuration

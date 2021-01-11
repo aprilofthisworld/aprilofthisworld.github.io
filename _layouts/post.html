@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 
 <a class="btn" href= "{{ site.url }}/" >
   Home
@@ -61,7 +63,12 @@ layout: default
   </ul>
 </div><!-- end share-buttons -->
 
+{% include gittalk.html %}
+
 {% if site.owner.disqus-shortname and page.comments == true %}
 <div id="disqus_thread"></div>
 {% include disqus.html %}
 {% endif %}
+
+
+
