@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Archive
+title:  所有文章
 permalink: /archive/
 ---
 
@@ -14,7 +14,7 @@ permalink: /archive/
 
       <ul>
       {% for post in group.items %}
-        <li><div style="width:60px;float:left;">{{ post.date | date: "%b %-d" }}</div> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+        <li><div style="width:60px;float:left;">{{ post.date | date: "%m-%e" }}</div> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
       </ul>
 

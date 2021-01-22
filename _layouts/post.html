@@ -5,7 +5,7 @@ layout: default
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 
 <a class="btn" href= "{{ site.url }}/" >
-  Home
+  博客首页
 </a>
 {% if page.image.feature %}
 <div class="post-image-feature">
@@ -29,7 +29,7 @@ layout: default
     <h1 title="{{ page.title | escape }}">{{ page.title }}</h1>
     <span class="post-meta">
       <span class="post-date">
-        {{ page.date | date: "%-d %b %Y" | upcase }}
+        {{ page.date | date: "%Y-%m-%e" | upcase }}
       </span>
       •
       {% include read_time.html %}
@@ -42,7 +42,7 @@ layout: default
   </article>
 </div>
 
-<div class="share-buttons">
+<!-- <div class="share-buttons">
   <h6>Share on: </h6>
   <ul>
     <li>
@@ -61,7 +61,10 @@ layout: default
       <a href="https://www.reddit.com/submit?url={{ site.url }}{{ page.url }}" class="reddit btn" title="Share on Reddit"><i class="fa fa-reddit"></i><span> Reddit</span></a>
     </li>
   </ul>
-</div><!-- end share-buttons -->
+</div>end share-buttons -->
+
+
+# ffds
 
 {% include gittalk.html %}
 
