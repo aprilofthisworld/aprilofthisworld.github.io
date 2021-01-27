@@ -85,10 +85,5 @@ owner:
   reddit: #username
   telegram: #username
 
-data:
-  index:
-    projects:
-      name: java相关
-      descr: Java学习相关
-      github: https://github.com/aprilofthisworld/aprilofthisworld.github.io
-      website: https://github.com/aprilofthisworld/aprilofthisworld.github.io
+# 百度统计
+baidu-analysis: 9d5a44eea130e33b3be2458d2f29d919

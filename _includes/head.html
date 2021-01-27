@@ -9,7 +9,7 @@
 {% else %}
   {% capture description %}{{ site.description }}{% endcapture %}
 {% endif %}
-
+{% include baidu-analysis.html %}
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,6 +28,8 @@
   {% else %}
     <meta property="twitter:image" content="{{ site.url }}/img/leonids-logo.png">
   {% endif %}
+
+ 
 
   <!-- Open Graph Tags -->
   <meta property="og:type" content="blog">

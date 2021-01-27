@@ -2,8 +2,8 @@
 layout: post
 title:  fsdfsdfsd
 date:   2021-01-20 22:23:09
-categories: [xss攻击]
-tag: 测试tag
+categories: [网络安全]
+tag: [xss]
 ---
 # 记录一次线上xss攻击
 
