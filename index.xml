@@ -12,9 +12,7 @@
     <pubDate>Thu, 12 Aug 2021 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
     <guid>http://4i22g17407.wocp.fun/install-nginx/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/featuredImage/excel-featured-image.jpg" referrerpolicy="no-referrer">
-            </div><p>基于Centos 7.5 版本的 ，源码方式安装nginx</p>]]></description>
+    <description><![CDATA[<p>基于Centos 7.5 版本的 ，源码方式安装nginx</p>]]></description>
 </item><item>
     <title>B站计算机学习资源</title>
     <link>http://4i22g17407.wocp.fun/bilibili-computer-study/</link>
@@ -25,7 +23,7 @@
 </item><item>
     <title>linux 服务器JDK安装</title>
     <link>http://4i22g17407.wocp.fun/install-jdk/</link>
-    <pubDate>Wed, 04 Mar 2020 15:58:26 &#43;0800</pubDate>
+    <pubDate>Sun, 04 Jul 2021 15:58:26 &#43;0800</pubDate>
     <author>作者</author>
     <guid>http://4i22g17407.wocp.fun/install-jdk/</guid>
     <description><![CDATA[<p>CentOS 7.5 64位 安装jdk1.8</p>]]></description>

@@ -39,7 +39,7 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 添加完成后，如下图所示
 
-![环境变量配置](/images/install-jdk/linux-jdk-path-success.png "环境变量配置")
+![环境变量配置](/images/linux/install-jdk/linux-jdk-path-success.png "环境变量配置")
 
 
 按 `Esc`, 输入`:wq`，保存文件并返回。
@@ -53,7 +53,7 @@ java -version
 ```
 
 返回如下信息，则表示安装成功
-![安装成功提示](/images/install-jdk/linux-jdk-install-success.png "安装成功提示")
+![安装成功提示](/images/linux/install-jdk/linux-jdk-install-success.png "安装成功提示")
 
 
 
