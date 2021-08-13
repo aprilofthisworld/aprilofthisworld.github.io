@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>nginx - 标签 - ❤️ so what</title>
+        <link>http://4i22g17407.wocp.fun/tags/nginx/</link>
+        <description>nginx - 标签 - ❤️ so what</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>352792242@qq.com (chenlp)</managingEditor>
+            <webMaster>352792242@qq.com (chenlp)</webMaster><lastBuildDate>Thu, 12 Aug 2021 00:00:00 &#43;0800</lastBuildDate><atom:link href="http://4i22g17407.wocp.fun/tags/nginx/" rel="self" type="application/rss+xml" /><item>
+    <title>nginx安装配置</title>
+    <link>http://4i22g17407.wocp.fun/install-nginx/</link>
+    <pubDate>Thu, 12 Aug 2021 00:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>http://4i22g17407.wocp.fun/install-nginx/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featuredImage/excel-featured-image.jpg" referrerpolicy="no-referrer">
+            </div><p>基于Centos 7.5 版本的 ，源码方式安装nginx</p>]]></description>
+</item></channel>
+</rss>

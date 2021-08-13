@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>配置 - 分类 - ❤️ so what</title>
+        <link>http://4i22g17407.wocp.fun/categories/%E9%85%8D%E7%BD%AE/</link>
+        <description>配置 - 分类 - ❤️ so what</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>352792242@qq.com (chenlp)</managingEditor>
+            <webMaster>352792242@qq.com (chenlp)</webMaster><lastBuildDate>Wed, 04 Mar 2020 15:58:26 &#43;0800</lastBuildDate><atom:link href="http://4i22g17407.wocp.fun/categories/%E9%85%8D%E7%BD%AE/" rel="self" type="application/rss+xml" /><item>
+    <title>linux 服务器JDK安装</title>
+    <link>http://4i22g17407.wocp.fun/install-jdk/</link>
+    <pubDate>Wed, 04 Mar 2020 15:58:26 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>http://4i22g17407.wocp.fun/install-jdk/</guid>
+    <description><![CDATA[<p>CentOS 7.5 64位 安装jdk1.8</p>]]></description>
+</item></channel>
+</rss>
